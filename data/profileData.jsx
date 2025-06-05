@@ -1,13 +1,13 @@
 export const profileData = {
-  name: "Alex Johnson",
-  title: "Full Stack Developer",
-  location: "San Francisco, CA",
-  email: "alex.johnson@email.com",
-  phone: "+1 (555) 123-4567",
-  bio: "Passionate full-stack developer with 5+ years of experience building scalable web applications. I love creating intuitive user experiences and robust backend systems.",
-  avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+  name: "Aaryan Jain 👨🏻‍💻",
+  title: "Gsoc Developer 2025 || Open Source Contributor || Web3 Developer || Blockchain Enthusiast || Full Stack Developer",
+  location: "IIT Roorkee, India",
+  email: "aaryanjain888@gmail.com",
+  phone: "+91 9764988806",
+  bio: "I develop for a living.",
+  avatar: "/aaryan-mic.jpeg",
   social: {
-    github: "https://github.com/alexjohnson",
-    linkedin: "https://linkedin.com/in/alexjohnson"
+    github: "https://github.com/IronJam11",
+    linkedin: "https://www.linkedin.com/in/aaryan-jain-02b44827a/"
   }
 };

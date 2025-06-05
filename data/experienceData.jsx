@@ -1,28 +1,38 @@
 export const experienceData = [
   {
     id: 1,
-    position: "Senior Full Stack Developer",
-    company: "TechCorp Inc.",
-    location: "San Francisco, CA",
-    period: "2022 - Present",
-    description: "Lead development of microservices architecture serving 100k+ users. Mentor junior developers and drive technical decisions for key product features.",
+    position: "Software Developer",
+    company: "IMG IIT Roorkee",
+    location: "IIT Roorkee",
+    period: "February 2024 - Present",
+    description: "Developed and maintained web applications using React and Django. Collaborated with cross-functional teams to deliver features on tight deadlines.",
     achievements: [
-      "Reduced API response time by 40% through optimization",
-      "Led migration to cloud infrastructure, reducing costs by 30%",
-      "Mentored 5 junior developers"
+        "Contributed to projects like Omniport and Inbound",
+        "Attend all lectures on development learning various things like Docker, Git, and much more"
     ]
   },
   {
     id: 2,
-    position: "Full Stack Developer",
-    company: "StartupXYZ",
-    location: "Palo Alto, CA",
-    period: "2020 - 2022",
-    description: "Developed and maintained web applications using React and Django. Collaborated with cross-functional teams to deliver features on tight deadlines.",
+    position: "Gsoc Student Developer 2025",
+    company: "Aossie || Stability Nexus",
+    location: "Remote",
+    period: "2025 - Present",
+    description: "Selected for the Google Summer Of Code 2025 representing the organisation AOSSIE",
     achievements: [
-      "Built user authentication system handling 10k+ users",
-      "Implemented CI/CD pipeline reducing deployment time by 60%",
-      "Contributed to 25% increase in user engagement"
+        "Contributed to open source projects from the repos of Aossie and Stability Nexus",
+        "Some of the projects included EduAid, Tree-Solidity, Tree-Flutter, Agora Blockchain"
     ]
-  }
+  },
+  {
+    id: 3,
+    position: "MDG Season of Code Mentee 2023",
+    company: "MDG",
+    location: "IIT Roorkee",
+    period: "Dcemeber 2023 - February 2024",
+    description: "Selected for the MDG season Of Code 2023 working on a social media app customised to the college ",
+    achievements: [
+        "Successfully made a website for a social media app customised to the college",
+        "Learnt frameworks like Django and Next.js",
+    ]
+  },
 ];

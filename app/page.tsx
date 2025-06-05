@@ -38,7 +38,7 @@ export default function Portfolio() {
             />
             <div className="text-center md:text-left flex-1">
               <h1 className="text-3xl font-bold text-gray-900">{profileData.name}</h1>
-              <p className="text-xl text-blue-600 font-medium mt-1">{profileData.title}</p>
+              <p className="text-xl text-gray-600 font-medium mt-1">{profileData.title}</p>
               <p className="text-gray-600 mt-2 max-w-2xl">{profileData.bio}</p>
               
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 mt-4 text-sm text-gray-600">
