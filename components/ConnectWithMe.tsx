@@ -63,6 +63,7 @@ export default function ContactForm({ className = "" }: ContactFormProps) {
         type: 'error',
         message: 'Sorry, there was an error sending your message. Please try again or contact me directly.'
       });
+      console.log(error);
     }
 
     setIsLoading(false);
@@ -76,7 +77,7 @@ export default function ContactForm({ className = "" }: ContactFormProps) {
           Get In Touch
         </CardTitle>
         <CardDescription className="text-base">
-          Have a project in mind or want to collaborate? I'd love to hear from you!
+          Have a project in mind or want to collaborate? I will love to hear from you!
         </CardDescription>
       </CardHeader>
       
