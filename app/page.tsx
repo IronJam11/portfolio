@@ -72,7 +72,7 @@ export default function Portfolio() {
               </div>
             </div>
             
-            <div className="flex gap-3">
+            <div className="flex gap-1">
               <Button variant="outline" size="sm" asChild>
                 <a href={profileData.social.github} target="_blank" rel="noopener noreferrer">
                   <Github className="w-4 h-4 mr-2" />
