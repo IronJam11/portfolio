@@ -1,6 +1,6 @@
 export const profileData = {
   name: "Aaryan Jain 👨🏻‍💻",
-  title: "Gsoc Developer 2025 || Open Source Contributor || Web3 Developer || Blockchain Enthusiast || Full Stack Developer",
+  title: "Gsoc Developer 2025 || Anchor || Open Source Contributor || Web3 Developer || Full Stack Developer",
   location: "IIT Roorkee, India",
   email: "aaryanjain888@gmail.com",
   phone: "+91 9764988806",

@@ -1,14 +1,17 @@
+'use client';
+
 import React from 'react';
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, Calendar } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, ExternalLink, Calendar, Download} from "lucide-react";
 import { profileData } from "@/data/profileData";
 import { educationData } from "@/data/educationData";
 import { projectsData } from "@/data/projectsData";
 import { skillsData } from "@/data/skillsData";
 import { experienceData } from "@/data/experienceData";
+import ContactForm from '@/components/ConnectWithMe';
 
 export default function Portfolio() {
   const getStatusColor = (status: string) => {
@@ -20,6 +23,18 @@ export default function Portfolio() {
       default:
         return 'bg-gray-100 text-gray-800 hover:bg-gray-200';
     }
+  };
+
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    contactSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const downloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; 
+    link.download = `${profileData.name.replace(' ', '_')}_Resume.pdf`;
+    link.click();
   };
 
   return (
@@ -70,7 +85,11 @@ export default function Portfolio() {
                   LinkedIn
                 </a>
               </Button>
-              <Button size="sm">
+              <Button variant="outline" size="sm" onClick={downloadResume}>
+                <Download className="w-4 h-4 mr-2" />
+                Resume
+              </Button>
+              <Button size="sm" onClick={scrollToContact}>
                 <Mail className="w-4 h-4 mr-2" />
                 Contact Me
               </Button>
@@ -233,6 +252,11 @@ export default function Portfolio() {
               </Card>
             ))}
           </div>
+        </section>
+         {/* Contact Section */}
+        <section id="contact">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Contact</h2>
+          <ContactForm />
         </section>
       </div>
 
